@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:lindu/constants/constants.dart';
-import 'package:lindu/widgets/container_background_widget.dart';
-import 'package:lindu/widgets/earthquake_card_item_widget.dart';
-import 'package:lindu/widgets/earthquake_card_widget.dart';
+
+import '../constants/constants.dart';
+import '../widgets/earthquake_card_widget.dart';
+import '../widgets/container_background_widget.dart';
+import '../widgets/earthquake_card_item_widget.dart';
 
 class AboutUsScreen extends StatelessWidget {
   const AboutUsScreen({Key? key}) : super(key: key);
