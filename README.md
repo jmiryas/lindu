@@ -1,16 +1,11 @@
-# lindu
+# Lindu
 
-A new Flutter project.
+Sebuah aplikasi untuk menampilkan gempa terbaru dan gempa dengan magnitude 5+.
 
-## Getting Started
+## Author
 
-This project is a starting point for a Flutter application.
+Rizky Ramadhan
 
-A few resources to get you started if this is your first Flutter project:
+## Sumber Data
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Data yang digunakan berasal dari website Data Terbuka BMKG (https://data.bmkg.go.id/gempabumi/).
