@@ -6,7 +6,7 @@ import 'package:workmanager/workmanager.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../utils/utils.dart';
-import '../contants/constants.dart';
+import 'constants/constants.dart';
 import '../screens/home_screen.dart';
 import '../models/earthquake_model.dart';
 

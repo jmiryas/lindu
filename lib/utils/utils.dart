@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
-import '../contants/constants.dart';
+import '../constants/constants.dart';
 import '../models/earthquake_model.dart';
 
 // Menampilkan informasi gempa melalui notifikasi
