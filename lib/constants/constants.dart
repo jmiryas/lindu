@@ -44,3 +44,27 @@ int getEarthquakeColor(double magnitude) {
     return earthquakeColor5;
   }
 }
+
+String getFormattedDate(int date) {
+  String dateString = date.toString();
+
+  return dateString.length > 1 ? dateString : "0$date";
+}
+
+String getShakemap(String datetimeString) {
+  var datetime = DateTime.parse(datetimeString).toLocal();
+
+  String year = datetime.year.toString();
+
+  String month = getFormattedDate(datetime.month);
+
+  String day = getFormattedDate(datetime.day);
+
+  String hour = getFormattedDate(datetime.hour);
+
+  String minute = getFormattedDate(datetime.minute);
+
+  String second = getFormattedDate(datetime.second);
+
+  return "$shakemapAPI$year$month$day$hour$minute$second.mmi.jpg";
+}

@@ -297,7 +297,7 @@ class _EarthquakeScreenState extends State<EarthquakeScreen> {
                 );
               }),
             ),
-          )
+          ),
         ],
       ),
     );
